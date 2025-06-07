@@ -1,4 +1,4 @@
-![CAPE Logo]([https://raw.githubusercontent.com/ctxis/CAPE/master/docs/_static/cape-logo.png](https://github.com/narges-d/cape-sandbox/blob/main/image/22219888.png))
+![CAPE Logo](./image/22219888.png)
 
 # CAPEv2 Sandbox Installation from Begin
 
