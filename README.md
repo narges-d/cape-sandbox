@@ -18,7 +18,7 @@ At first, I used Ubuntu 22.04.4 as my base operating system and faced errors, so
 
 For installing you can follow this path:
 
-
+```bash
 sudo apt-get update && sudo apt-get upgrade -y
 sudo chmod -R a+rwx /opt/
 cd /opt
