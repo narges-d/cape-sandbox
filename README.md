@@ -18,7 +18,7 @@ At first, I used Ubuntu 22.04.4 as my base operating system and faced errors, so
 
 For installing you can follow this path:
 
-```bash
+
 sudo apt-get update && sudo apt-get upgrade -y
 sudo chmod -R a+rwx /opt/
 cd /opt
@@ -28,7 +28,7 @@ cd CAPEv2/installer
 sed -i 's/<WOOT>/BXPC/g' kvm-qemu.sh
 chmod a+x kvm-qemu.sh
 chmod a+x cape2.sh
-```bash
+
 sudo ./kvm-qemu.sh all cape | tee kvm-qemu.log
 sudo reboot
 
@@ -36,7 +36,7 @@ cd /opt/CAPEv2/installer
 sudo ./kvm-qemu.sh virtmanager cape | tee kvm-qemu-virt-manager.log
 after that you have see :
 ![kvm-qemu](./image/Capture.PNG)
-```bash
+
 cd /opt/CAPEv2/installer
 sudo ./cape2.sh all cape | tee cape.log
 sudo reboot
@@ -49,11 +49,12 @@ check this :
 ![poetry](./image/Capture6.PNG)
 then do like this:
 ![poetry](./image/Capture7.PNG)
-```bash
+
 poetry env list
 ---- poetry run pip install -r requirements.txt -------
 sudo -u cape poetry run pip install -r extra/optional_dependencies.txt
 sudo -u cape poetry run pip install pyattck==7.1.2
+
 -----------------------------
 cd /opt/CAPEv2
 sudo apt install dbus-x11
