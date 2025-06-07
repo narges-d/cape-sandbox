@@ -34,6 +34,7 @@ sudo reboot
 
 cd /opt/CAPEv2/installer
 sudo ./kvm-qemu.sh virtmanager cape | tee kvm-qemu-virt-manager.log
+```
 ------------------------------------------------------------
 after that you have see :
 ![kvm-qemu](./image/Capture.PNG)
