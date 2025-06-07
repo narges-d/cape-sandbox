@@ -18,7 +18,7 @@ At first, I used Ubuntu 22.04.4 as my base operating system and faced errors, so
 
 For installing you can follow this path:
 
-```bash
+
 sudo apt-get update && sudo apt-get upgrade -y
 sudo chmod -R a+rwx /opt/
 cd /opt
@@ -34,7 +34,7 @@ sudo reboot
 
 cd /opt/CAPEv2/installer
 sudo ./kvm-qemu.sh virtmanager cape | tee kvm-qemu-virt-manager.log
-```
+
 ------------------------------------------------------------
 after that you have see :
 ![kvm-qemu](./image/Capture.PNG)
